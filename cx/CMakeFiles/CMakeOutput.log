@@ -1,0 +1,2838 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/msys32/mingw32/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is Clang, found in "C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/3.12.4/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/msys32/mingw32/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is Clang, found in "C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/3.12.4/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_ab6bd/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_ab6bd.dir/build.make CMakeFiles/cmTC_ab6bd.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab6bd.dir/testCCompiler.c.obj
+/C/msys32/mingw32/bin/clang.exe    -o CMakeFiles/cmTC_ab6bd.dir/testCCompiler.c.obj   -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ab6bd.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_ab6bd.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_ab6bd.dir/objects.a "CMakeFiles/cmTC_ab6bd.dir/testCCompiler.c.obj" 
+/C/msys32/mingw32/bin/clang.exe      -Wl,--whole-archive CMakeFiles/cmTC_ab6bd.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ab6bd.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_82401/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_82401.dir/build.make CMakeFiles/cmTC_82401.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82401.dir/CMakeCCompilerABI.c.obj
+/C/msys32/mingw32/bin/clang.exe    -o CMakeFiles/cmTC_82401.dir/CMakeCCompilerABI.c.obj   -c /C/msys32/mingw32/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_82401.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_82401.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_82401.dir/objects.a "CMakeFiles/cmTC_82401.dir/CMakeCCompilerABI.c.obj" 
+/C/msys32/mingw32/bin/clang.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_82401.dir/objects.a -Wl,--no-whole-archive  -o cmTC_82401.exe -Wl,--major-image-version,0,--minor-image-version,0 
+clang version 7.0.1 (tags/RELEASE_701/final)
+Target: i686-w64-windows-gnu
+Thread model: posix
+InstalledDir: C:\msys32\mingw32\bin
+ "C:\\msys32\\mingw32\\bin\\ld" -m i386pe -Bdynamic -o cmTC_82401.exe "C:\\msys32\\mingw32\\i686-w64-mingw32\\lib\\crt2.o" "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtbegin.o" "-LC:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0" "-LC:\\msys32\\mingw32\\i686-w64-mingw32\\lib" "-LC:\\msys32\\mingw32\\lib" "-LC:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib" --whole-archive CMakeFiles/cmTC_82401.dir/objects.a --no-whole-archive --major-image-version 0 --minor-image-version 0 "-LC:\\msys32\\mingw32\\lib" -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtend.o"
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_82401/fast"]
+  ignore line: [C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_82401.dir/build.make CMakeFiles/cmTC_82401.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_82401.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/C/msys32/mingw32/bin/clang.exe    -o CMakeFiles/cmTC_82401.dir/CMakeCCompilerABI.c.obj   -c /C/msys32/mingw32/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_82401.exe]
+  ignore line: [/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_82401.dir/objects.a]
+  ignore line: [/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_82401.dir/objects.a "CMakeFiles/cmTC_82401.dir/CMakeCCompilerABI.c.obj" ]
+  ignore line: [/C/msys32/mingw32/bin/clang.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_82401.dir/objects.a -Wl,--no-whole-archive  -o cmTC_82401.exe -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [clang version 7.0.1 (tags/RELEASE_701/final)]
+  ignore line: [Target: i686-w64-windows-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\msys32\mingw32\bin]
+  link line: [ "C:\\msys32\\mingw32\\bin\\ld" -m i386pe -Bdynamic -o cmTC_82401.exe "C:\\msys32\\mingw32\\i686-w64-mingw32\\lib\\crt2.o" "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtbegin.o" "-LC:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0" "-LC:\\msys32\\mingw32\\i686-w64-mingw32\\lib" "-LC:\\msys32\\mingw32\\lib" "-LC:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib" --whole-archive CMakeFiles/cmTC_82401.dir/objects.a --no-whole-archive --major-image-version 0 --minor-image-version 0 "-LC:\\msys32\\mingw32\\lib" -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtend.o"]
+    arg [C:\\msys32\\mingw32\\bin\\ld] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_82401.exe] ==> ignore
+    arg [C:\\msys32\\mingw32\\i686-w64-mingw32\\lib\\crt2.o] ==> ignore
+    arg [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtbegin.o] ==> ignore
+    arg [-LC:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0] ==> dir [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0]
+    arg [-LC:\\msys32\\mingw32\\i686-w64-mingw32\\lib] ==> dir [C:\\msys32\\mingw32\\i686-w64-mingw32\\lib]
+    arg [-LC:\\msys32\\mingw32\\lib] ==> dir [C:\\msys32\\mingw32\\lib]
+    arg [-LC:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib] ==> dir [C:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_82401.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-LC:\\msys32\\mingw32\\lib] ==> dir [C:\\msys32\\mingw32\\lib]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse library dir [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0] ==> [C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/7.4.0]
+  collapse library dir [C:\\msys32\\mingw32\\i686-w64-mingw32\\lib] ==> [C:/msys32/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [C:\\msys32\\mingw32\\lib] ==> [C:/msys32/mingw32/lib]
+  collapse library dir [C:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib] ==> [C:/msys32/mingw32/i686-w64-mingw32/sys-root/mingw/lib]
+  collapse library dir [C:\\msys32\\mingw32\\lib] ==> [C:/msys32/mingw32/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/7.4.0;C:/msys32/mingw32/i686-w64-mingw32/lib;C:/msys32/mingw32/lib;C:/msys32/mingw32/i686-w64-mingw32/sys-root/mingw/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_00e0d/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_00e0d.dir/build.make CMakeFiles/cmTC_00e0d.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00e0d.dir/feature_tests.c.obj
+/C/msys32/mingw32/bin/clang.exe   -std=c11 -o CMakeFiles/cmTC_00e0d.dir/feature_tests.c.obj   -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.c
+Linking C executable cmTC_00e0d.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_00e0d.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_00e0d.dir/objects.a "CMakeFiles/cmTC_00e0d.dir/feature_tests.c.obj" 
+/C/msys32/mingw32/bin/clang.exe      -Wl,--whole-archive CMakeFiles/cmTC_00e0d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_00e0d.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_4af7c/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_4af7c.dir/build.make CMakeFiles/cmTC_4af7c.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4af7c.dir/feature_tests.c.obj
+/C/msys32/mingw32/bin/clang.exe   -std=c99 -o CMakeFiles/cmTC_4af7c.dir/feature_tests.c.obj   -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4af7c.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_4af7c.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_4af7c.dir/objects.a "CMakeFiles/cmTC_4af7c.dir/feature_tests.c.obj" 
+/C/msys32/mingw32/bin/clang.exe      -Wl,--whole-archive CMakeFiles/cmTC_4af7c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4af7c.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_c4744/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_c4744.dir/build.make CMakeFiles/cmTC_c4744.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4744.dir/feature_tests.c.obj
+/C/msys32/mingw32/bin/clang.exe   -std=c90 -o CMakeFiles/cmTC_c4744.dir/feature_tests.c.obj   -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c4744.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_c4744.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_c4744.dir/objects.a "CMakeFiles/cmTC_c4744.dir/feature_tests.c.obj" 
+/C/msys32/mingw32/bin/clang.exe      -Wl,--whole-archive CMakeFiles/cmTC_c4744.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c4744.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_ad193/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_ad193.dir/build.make CMakeFiles/cmTC_ad193.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ad193.dir/testCXXCompiler.cxx.obj
+/C/msys32/mingw32/bin/clang++.exe     -o CMakeFiles/cmTC_ad193.dir/testCXXCompiler.cxx.obj -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ad193.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_ad193.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_ad193.dir/objects.a "CMakeFiles/cmTC_ad193.dir/testCXXCompiler.cxx.obj" 
+/C/msys32/mingw32/bin/clang++.exe      -Wl,--whole-archive CMakeFiles/cmTC_ad193.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ad193.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_b61b4/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_b61b4.dir/build.make CMakeFiles/cmTC_b61b4.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b61b4.dir/CMakeCXXCompilerABI.cpp.obj
+/C/msys32/mingw32/bin/clang++.exe     -o CMakeFiles/cmTC_b61b4.dir/CMakeCXXCompilerABI.cpp.obj -c /C/msys32/mingw32/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_b61b4.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_b61b4.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_b61b4.dir/objects.a "CMakeFiles/cmTC_b61b4.dir/CMakeCXXCompilerABI.cpp.obj" 
+/C/msys32/mingw32/bin/clang++.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_b61b4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b61b4.exe -Wl,--major-image-version,0,--minor-image-version,0 
+clang version 7.0.1 (tags/RELEASE_701/final)
+Target: i686-w64-windows-gnu
+Thread model: posix
+InstalledDir: C:\msys32\mingw32\bin
+ "C:\\msys32\\mingw32\\bin\\ld" -m i386pe -Bdynamic -o cmTC_b61b4.exe "C:\\msys32\\mingw32\\i686-w64-mingw32\\lib\\crt2.o" "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtbegin.o" "-LC:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0" "-LC:\\msys32\\mingw32\\i686-w64-mingw32\\lib" "-LC:\\msys32\\mingw32\\lib" "-LC:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib" --whole-archive CMakeFiles/cmTC_b61b4.dir/objects.a --no-whole-archive --major-image-version 0 --minor-image-version 0 "-LC:\\msys32\\mingw32\\lib" -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtend.o"
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_b61b4/fast"]
+  ignore line: [C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_b61b4.dir/build.make CMakeFiles/cmTC_b61b4.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b61b4.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/C/msys32/mingw32/bin/clang++.exe     -o CMakeFiles/cmTC_b61b4.dir/CMakeCXXCompilerABI.cpp.obj -c /C/msys32/mingw32/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_b61b4.exe]
+  ignore line: [/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_b61b4.dir/objects.a]
+  ignore line: [/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_b61b4.dir/objects.a "CMakeFiles/cmTC_b61b4.dir/CMakeCXXCompilerABI.cpp.obj" ]
+  ignore line: [/C/msys32/mingw32/bin/clang++.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_b61b4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b61b4.exe -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [clang version 7.0.1 (tags/RELEASE_701/final)]
+  ignore line: [Target: i686-w64-windows-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\msys32\mingw32\bin]
+  link line: [ "C:\\msys32\\mingw32\\bin\\ld" -m i386pe -Bdynamic -o cmTC_b61b4.exe "C:\\msys32\\mingw32\\i686-w64-mingw32\\lib\\crt2.o" "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtbegin.o" "-LC:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0" "-LC:\\msys32\\mingw32\\i686-w64-mingw32\\lib" "-LC:\\msys32\\mingw32\\lib" "-LC:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib" --whole-archive CMakeFiles/cmTC_b61b4.dir/objects.a --no-whole-archive --major-image-version 0 --minor-image-version 0 "-LC:\\msys32\\mingw32\\lib" -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtend.o"]
+    arg [C:\\msys32\\mingw32\\bin\\ld] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b61b4.exe] ==> ignore
+    arg [C:\\msys32\\mingw32\\i686-w64-mingw32\\lib\\crt2.o] ==> ignore
+    arg [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtbegin.o] ==> ignore
+    arg [-LC:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0] ==> dir [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0]
+    arg [-LC:\\msys32\\mingw32\\i686-w64-mingw32\\lib] ==> dir [C:\\msys32\\mingw32\\i686-w64-mingw32\\lib]
+    arg [-LC:\\msys32\\mingw32\\lib] ==> dir [C:\\msys32\\mingw32\\lib]
+    arg [-LC:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib] ==> dir [C:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_b61b4.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-LC:\\msys32\\mingw32\\lib] ==> dir [C:\\msys32\\mingw32\\lib]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0] ==> [C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/7.4.0]
+  collapse library dir [C:\\msys32\\mingw32\\i686-w64-mingw32\\lib] ==> [C:/msys32/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [C:\\msys32\\mingw32\\lib] ==> [C:/msys32/mingw32/lib]
+  collapse library dir [C:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib] ==> [C:/msys32/mingw32/i686-w64-mingw32/sys-root/mingw/lib]
+  collapse library dir [C:\\msys32\\mingw32\\lib] ==> [C:/msys32/mingw32/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex]
+  implicit dirs: [C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/7.4.0;C:/msys32/mingw32/i686-w64-mingw32/lib;C:/msys32/mingw32/lib;C:/msys32/mingw32/i686-w64-mingw32/sys-root/mingw/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_8c4bc/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_8c4bc.dir/build.make CMakeFiles/cmTC_8c4bc.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8c4bc.dir/feature_tests.cxx.obj
+/C/msys32/mingw32/bin/clang++.exe    -std=c++2a -o CMakeFiles/cmTC_8c4bc.dir/feature_tests.cxx.obj -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8c4bc.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_8c4bc.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_8c4bc.dir/objects.a "CMakeFiles/cmTC_8c4bc.dir/feature_tests.cxx.obj" 
+/C/msys32/mingw32/bin/clang++.exe      -Wl,--whole-archive CMakeFiles/cmTC_8c4bc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8c4bc.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_af6bc/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_af6bc.dir/build.make CMakeFiles/cmTC_af6bc.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_af6bc.dir/feature_tests.cxx.obj
+/C/msys32/mingw32/bin/clang++.exe    -std=c++17 -o CMakeFiles/cmTC_af6bc.dir/feature_tests.cxx.obj -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_af6bc.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_af6bc.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_af6bc.dir/objects.a "CMakeFiles/cmTC_af6bc.dir/feature_tests.cxx.obj" 
+/C/msys32/mingw32/bin/clang++.exe      -Wl,--whole-archive CMakeFiles/cmTC_af6bc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_af6bc.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_754a5/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_754a5.dir/build.make CMakeFiles/cmTC_754a5.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_754a5.dir/feature_tests.cxx.obj
+/C/msys32/mingw32/bin/clang++.exe    -std=c++14 -o CMakeFiles/cmTC_754a5.dir/feature_tests.cxx.obj -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_754a5.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_754a5.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_754a5.dir/objects.a "CMakeFiles/cmTC_754a5.dir/feature_tests.cxx.obj" 
+/C/msys32/mingw32/bin/clang++.exe      -Wl,--whole-archive CMakeFiles/cmTC_754a5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_754a5.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_9759c/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_9759c.dir/build.make CMakeFiles/cmTC_9759c.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9759c.dir/feature_tests.cxx.obj
+/C/msys32/mingw32/bin/clang++.exe    -std=c++11 -o CMakeFiles/cmTC_9759c.dir/feature_tests.cxx.obj -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9759c.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_9759c.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_9759c.dir/objects.a "CMakeFiles/cmTC_9759c.dir/feature_tests.cxx.obj" 
+/C/msys32/mingw32/bin/clang++.exe      -Wl,--whole-archive CMakeFiles/cmTC_9759c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9759c.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_72370/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_72370.dir/build.make CMakeFiles/cmTC_72370.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_72370.dir/feature_tests.cxx.obj
+/C/msys32/mingw32/bin/clang++.exe    -std=c++98 -o CMakeFiles/cmTC_72370.dir/feature_tests.cxx.obj -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_72370.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_72370.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_72370.dir/objects.a "CMakeFiles/cmTC_72370.dir/feature_tests.cxx.obj" 
+/C/msys32/mingw32/bin/clang++.exe      -Wl,--whole-archive CMakeFiles/cmTC_72370.dir/objects.a -Wl,--no-whole-archive  -o cmTC_72370.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/msys32/mingw32/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft(R) ��������汾 4.6.1532.0
+[Microsoft .NET Framework �汾 4.0.30319.42000]
+��Ȩ���� (C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2019/9/19 ������ 21:41:09��
+�ڵ� 1 �ϵ���Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:03.31
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/3.12.4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/msys32/mingw32/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft(R) ��������汾 4.6.1532.0
+[Microsoft .NET Framework �汾 4.0.30319.42000]
+��Ȩ���� (C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2019/9/19 ������ 21:41:13��
+�ڵ� 1 �ϵ���Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdCXX.unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdCXX.unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdCXX.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:01.30
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/3.12.4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_3136c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:41:15。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_3136c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3136c.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3136c.dir\Debug\cmTC_3136c.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3136c.dir\Debug\\" /Fd"cmTC_3136c.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCCompiler.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  testCCompiler.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3136c.dir\Debug\\" /Fd"cmTC_3136c.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_3136c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_3136c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_3136c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3136c.dir\Debug\testCCompiler.obj
+  cmTC_3136c.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_3136c.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_3136c.dir\Debug\cmTC_3136c.unsuccessfulbuild”。
+  正在对“cmTC_3136c.dir\Debug\cmTC_3136c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_3136c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.75
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_39574.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:41:17。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_39574.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_39574.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_39574.dir\Debug\cmTC_39574.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_39574.dir\Debug\\" /Fd"cmTC_39574.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_39574.dir\Debug\\" /Fd"cmTC_39574.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_39574.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_39574.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_39574.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_39574.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_39574.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_39574.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_39574.dir\Debug\cmTC_39574.unsuccessfulbuild”。
+  正在对“cmTC_39574.dir\Debug\cmTC_39574.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_39574.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.69
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_aaaa2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:41:18。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_aaaa2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_aaaa2.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_aaaa2.dir\Debug\cmTC_aaaa2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_aaaa2.dir\Debug\\" /Fd"cmTC_aaaa2.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_aaaa2.dir\Debug\\" /Fd"cmTC_aaaa2.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.c
+  
+  feature_tests.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_aaaa2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_aaaa2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_aaaa2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_aaaa2.dir\Debug\feature_tests.obj
+  cmTC_aaaa2.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_aaaa2.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_aaaa2.dir\Debug\cmTC_aaaa2.unsuccessfulbuild”。
+  正在对“cmTC_aaaa2.dir\Debug\cmTC_aaaa2.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_aaaa2.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.51
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_f19fc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:41:20。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_f19fc.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f19fc.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f19fc.dir\Debug\cmTC_f19fc.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_f19fc.dir\Debug\\" /Fd"cmTC_f19fc.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_f19fc.dir\Debug\\" /Fd"cmTC_f19fc.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_f19fc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_f19fc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_f19fc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_f19fc.dir\Debug\testCXXCompiler.obj
+  cmTC_f19fc.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_f19fc.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_f19fc.dir\Debug\cmTC_f19fc.unsuccessfulbuild”。
+  正在对“cmTC_f19fc.dir\Debug\cmTC_f19fc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_f19fc.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.06
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_d49ab.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:41:21。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_d49ab.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d49ab.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d49ab.dir\Debug\cmTC_d49ab.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_d49ab.dir\Debug\\" /Fd"cmTC_d49ab.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_d49ab.dir\Debug\\" /Fd"cmTC_d49ab.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_d49ab.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_d49ab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_d49ab.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d49ab.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_d49ab.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_d49ab.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d49ab.dir\Debug\cmTC_d49ab.unsuccessfulbuild”。
+  正在对“cmTC_d49ab.dir\Debug\cmTC_d49ab.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_d49ab.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.14
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_ec272.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:41:23。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_ec272.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ec272.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ec272.dir\Debug\cmTC_ec272.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_ec272.dir\Debug\\" /Fd"cmTC_ec272.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_ec272.dir\Debug\\" /Fd"cmTC_ec272.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_ec272.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_ec272.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_ec272.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ec272.dir\Debug\feature_tests.obj
+  cmTC_ec272.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_ec272.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_ec272.dir\Debug\cmTC_ec272.unsuccessfulbuild”。
+  正在对“cmTC_ec272.dir\Debug\cmTC_ec272.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_ec272.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.93
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/msys32/mingw32/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft(R) ��������汾 4.6.1532.0
+[Microsoft .NET Framework �汾 4.0.30319.42000]
+��Ȩ���� (C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2019/9/19 ������ 21:43:51��
+�ڵ� 1 �ϵ���Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.66
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/3.12.4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/msys32/mingw32/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft(R) ��������汾 4.6.1532.0
+[Microsoft .NET Framework �汾 4.0.30319.42000]
+��Ȩ���� (C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2019/9/19 ������ 21:43:51��
+�ڵ� 1 �ϵ���Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdCXX.unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdCXX.unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdCXX.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.69
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/3.12.4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_88323.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:43:53。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_88323.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_88323.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_88323.dir\Debug\cmTC_88323.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_88323.dir\Debug\\" /Fd"cmTC_88323.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCCompiler.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_88323.dir\Debug\\" /Fd"cmTC_88323.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_88323.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_88323.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_88323.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_88323.dir\Debug\testCCompiler.obj
+  cmTC_88323.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_88323.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_88323.dir\Debug\cmTC_88323.unsuccessfulbuild”。
+  正在对“cmTC_88323.dir\Debug\cmTC_88323.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_88323.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.72
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_5f57c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:43:54。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_5f57c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5f57c.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5f57c.dir\Debug\cmTC_5f57c.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5f57c.dir\Debug\\" /Fd"cmTC_5f57c.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5f57c.dir\Debug\\" /Fd"cmTC_5f57c.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_5f57c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_5f57c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_5f57c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_5f57c.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_5f57c.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_5f57c.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_5f57c.dir\Debug\cmTC_5f57c.unsuccessfulbuild”。
+  正在对“cmTC_5f57c.dir\Debug\cmTC_5f57c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_5f57c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.86
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_6c32f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:43:55。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_6c32f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_6c32f.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_6c32f.dir\Debug\cmTC_6c32f.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6c32f.dir\Debug\\" /Fd"cmTC_6c32f.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6c32f.dir\Debug\\" /Fd"cmTC_6c32f.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.c
+  
+  feature_tests.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_6c32f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_6c32f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_6c32f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6c32f.dir\Debug\feature_tests.obj
+  cmTC_6c32f.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_6c32f.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_6c32f.dir\Debug\cmTC_6c32f.unsuccessfulbuild”。
+  正在对“cmTC_6c32f.dir\Debug\cmTC_6c32f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_6c32f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.15
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_ecd7b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:43:57。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_ecd7b.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ecd7b.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ecd7b.dir\Debug\cmTC_ecd7b.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_ecd7b.dir\Debug\\" /Fd"cmTC_ecd7b.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_ecd7b.dir\Debug\\" /Fd"cmTC_ecd7b.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_ecd7b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_ecd7b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_ecd7b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ecd7b.dir\Debug\testCXXCompiler.obj
+  cmTC_ecd7b.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_ecd7b.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_ecd7b.dir\Debug\cmTC_ecd7b.unsuccessfulbuild”。
+  正在对“cmTC_ecd7b.dir\Debug\cmTC_ecd7b.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_ecd7b.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.64
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_8ee18.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:43:58。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_8ee18.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8ee18.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8ee18.dir\Debug\cmTC_8ee18.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_8ee18.dir\Debug\\" /Fd"cmTC_8ee18.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_8ee18.dir\Debug\\" /Fd"cmTC_8ee18.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_8ee18.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_8ee18.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_8ee18.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_8ee18.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_8ee18.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_8ee18.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_8ee18.dir\Debug\cmTC_8ee18.unsuccessfulbuild”。
+  正在对“cmTC_8ee18.dir\Debug\cmTC_8ee18.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_8ee18.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.63
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_89777.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:43:59。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_89777.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_89777.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_89777.dir\Debug\cmTC_89777.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_89777.dir\Debug\\" /Fd"cmTC_89777.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_89777.dir\Debug\\" /Fd"cmTC_89777.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_89777.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_89777.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_89777.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_89777.dir\Debug\feature_tests.obj
+  cmTC_89777.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_89777.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_89777.dir\Debug\cmTC_89777.unsuccessfulbuild”。
+  正在对“cmTC_89777.dir\Debug\cmTC_89777.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_89777.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.75
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/msys32/mingw32/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft(R) ��������汾 4.6.1532.0
+[Microsoft .NET Framework �汾 4.0.30319.42000]
+��Ȩ���� (C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2019/9/19 ������ 21:48:17��
+�ڵ� 1 �ϵ���Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.76
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/3.12.4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/msys32/mingw32/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft(R) ��������汾 4.6.1532.0
+[Microsoft .NET Framework �汾 4.0.30319.42000]
+��Ȩ���� (C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2019/9/19 ������ 21:48:18��
+�ڵ� 1 �ϵ���Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdCXX.unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdCXX.unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdCXX.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.66
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/3.12.4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_1c173.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:48:19。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_1c173.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_1c173.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_1c173.dir\Debug\cmTC_1c173.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1c173.dir\Debug\\" /Fd"cmTC_1c173.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCCompiler.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1c173.dir\Debug\\" /Fd"cmTC_1c173.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_1c173.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_1c173.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_1c173.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1c173.dir\Debug\testCCompiler.obj
+  cmTC_1c173.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_1c173.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_1c173.dir\Debug\cmTC_1c173.unsuccessfulbuild”。
+  正在对“cmTC_1c173.dir\Debug\cmTC_1c173.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_1c173.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.16
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_e86a3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:48:20。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_e86a3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e86a3.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e86a3.dir\Debug\cmTC_e86a3.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e86a3.dir\Debug\\" /Fd"cmTC_e86a3.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e86a3.dir\Debug\\" /Fd"cmTC_e86a3.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_e86a3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_e86a3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_e86a3.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e86a3.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_e86a3.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_e86a3.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_e86a3.dir\Debug\cmTC_e86a3.unsuccessfulbuild”。
+  正在对“cmTC_e86a3.dir\Debug\cmTC_e86a3.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_e86a3.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.74
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_c027a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:48:21。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_c027a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c027a.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c027a.dir\Debug\cmTC_c027a.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c027a.dir\Debug\\" /Fd"cmTC_c027a.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c027a.dir\Debug\\" /Fd"cmTC_c027a.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.c
+  
+  feature_tests.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_c027a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_c027a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_c027a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c027a.dir\Debug\feature_tests.obj
+  cmTC_c027a.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_c027a.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_c027a.dir\Debug\cmTC_c027a.unsuccessfulbuild”。
+  正在对“cmTC_c027a.dir\Debug\cmTC_c027a.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_c027a.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.79
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_0bf3f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:48:22。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_0bf3f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_0bf3f.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_0bf3f.dir\Debug\cmTC_0bf3f.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_0bf3f.dir\Debug\\" /Fd"cmTC_0bf3f.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_0bf3f.dir\Debug\\" /Fd"cmTC_0bf3f.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_0bf3f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_0bf3f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_0bf3f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_0bf3f.dir\Debug\testCXXCompiler.obj
+  cmTC_0bf3f.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_0bf3f.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_0bf3f.dir\Debug\cmTC_0bf3f.unsuccessfulbuild”。
+  正在对“cmTC_0bf3f.dir\Debug\cmTC_0bf3f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_0bf3f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.71
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_2f87d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:48:23。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_2f87d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_2f87d.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_2f87d.dir\Debug\cmTC_2f87d.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_2f87d.dir\Debug\\" /Fd"cmTC_2f87d.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_2f87d.dir\Debug\\" /Fd"cmTC_2f87d.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_2f87d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_2f87d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_2f87d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_2f87d.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_2f87d.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_2f87d.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_2f87d.dir\Debug\cmTC_2f87d.unsuccessfulbuild”。
+  正在对“cmTC_2f87d.dir\Debug\cmTC_2f87d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_2f87d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.64
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_490eb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:48:25。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_490eb.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_490eb.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_490eb.dir\Debug\cmTC_490eb.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_490eb.dir\Debug\\" /Fd"cmTC_490eb.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_490eb.dir\Debug\\" /Fd"cmTC_490eb.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_490eb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_490eb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_490eb.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_490eb.dir\Debug\feature_tests.obj
+  cmTC_490eb.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_490eb.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_490eb.dir\Debug\cmTC_490eb.unsuccessfulbuild”。
+  正在对“cmTC_490eb.dir\Debug\cmTC_490eb.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_490eb.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.66
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/msys32/mingw32/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft(R) ��������汾 4.6.1532.0
+[Microsoft .NET Framework �汾 4.0.30319.42000]
+��Ȩ���� (C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2019/9/19 ������ 21:49:43��
+�ڵ� 1 �ϵ���Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.68
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/3.12.4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/msys32/mingw32/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft(R) ��������汾 4.6.1532.0
+[Microsoft .NET Framework �汾 4.0.30319.42000]
+��Ȩ���� (C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2019/9/19 ������ 21:49:44��
+�ڵ� 1 �ϵ���Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdCXX.unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdCXX.unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdCXX.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\3.12.4\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.64
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/3.12.4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_62a88.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:49:45。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_62a88.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_62a88.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_62a88.dir\Debug\cmTC_62a88.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_62a88.dir\Debug\\" /Fd"cmTC_62a88.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCCompiler.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_62a88.dir\Debug\\" /Fd"cmTC_62a88.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_62a88.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_62a88.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_62a88.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_62a88.dir\Debug\testCCompiler.obj
+  cmTC_62a88.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_62a88.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_62a88.dir\Debug\cmTC_62a88.unsuccessfulbuild”。
+  正在对“cmTC_62a88.dir\Debug\cmTC_62a88.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_62a88.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.71
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_c23e0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:49:46。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_c23e0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c23e0.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c23e0.dir\Debug\cmTC_c23e0.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c23e0.dir\Debug\\" /Fd"cmTC_c23e0.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c23e0.dir\Debug\\" /Fd"cmTC_c23e0.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_c23e0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_c23e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_c23e0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c23e0.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_c23e0.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_c23e0.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_c23e0.dir\Debug\cmTC_c23e0.unsuccessfulbuild”。
+  正在对“cmTC_c23e0.dir\Debug\cmTC_c23e0.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_c23e0.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.65
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_25b2f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:49:47。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_25b2f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_25b2f.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_25b2f.dir\Debug\cmTC_25b2f.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_25b2f.dir\Debug\\" /Fd"cmTC_25b2f.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_25b2f.dir\Debug\\" /Fd"cmTC_25b2f.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.c
+  
+  feature_tests.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_25b2f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_25b2f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_25b2f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_25b2f.dir\Debug\feature_tests.obj
+  cmTC_25b2f.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_25b2f.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_25b2f.dir\Debug\cmTC_25b2f.unsuccessfulbuild”。
+  正在对“cmTC_25b2f.dir\Debug\cmTC_25b2f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_25b2f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.05
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_b893c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:49:48。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_b893c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b893c.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b893c.dir\Debug\cmTC_b893c.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_b893c.dir\Debug\\" /Fd"cmTC_b893c.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_b893c.dir\Debug\\" /Fd"cmTC_b893c.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_b893c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_b893c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_b893c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b893c.dir\Debug\testCXXCompiler.obj
+  cmTC_b893c.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_b893c.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_b893c.dir\Debug\cmTC_b893c.unsuccessfulbuild”。
+  正在对“cmTC_b893c.dir\Debug\cmTC_b893c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_b893c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.27
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_566e5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:49:50。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_566e5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_566e5.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_566e5.dir\Debug\cmTC_566e5.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_566e5.dir\Debug\\" /Fd"cmTC_566e5.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_566e5.dir\Debug\\" /Fd"cmTC_566e5.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "C:\msys32\mingw32\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_566e5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_566e5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_566e5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_566e5.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_566e5.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_566e5.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_566e5.dir\Debug\cmTC_566e5.unsuccessfulbuild”。
+  正在对“cmTC_566e5.dir\Debug\cmTC_566e5.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_566e5.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.81
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_9b503.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft(R) 生成引擎版本 4.6.1532.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/9/19 星期四 21:49:51。
+节点 1 上的项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_9b503.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_9b503.dir\Debug\”。
+  正在创建目录“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_9b503.dir\Debug\cmTC_9b503.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_9b503.dir\Debug\\" /Fd"cmTC_9b503.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_9b503.dir\Debug\\" /Fd"cmTC_9b503.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_9b503.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_9b503.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/Debug/cmTC_9b503.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9b503.dir\Debug\feature_tests.obj
+  cmTC_9b503.vcxproj -> C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\Debug\cmTC_9b503.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_9b503.dir\Debug\cmTC_9b503.unsuccessfulbuild”。
+  正在对“cmTC_9b503.dir\Debug\cmTC_9b503.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\Administrator\Desktop\vsc\.vscode\cx\CMakeFiles\CMakeTmp\cmTC_9b503.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.86
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/msys32/mingw32/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is Clang, found in "C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/3.12.4/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/msys32/mingw32/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is Clang, found in "C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/3.12.4/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_235a4/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_235a4.dir/build.make CMakeFiles/cmTC_235a4.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_235a4.dir/testCCompiler.c.obj
+/C/msys32/mingw32/bin/clang.exe    -o CMakeFiles/cmTC_235a4.dir/testCCompiler.c.obj   -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_235a4.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_235a4.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_235a4.dir/objects.a "CMakeFiles/cmTC_235a4.dir/testCCompiler.c.obj" 
+/C/msys32/mingw32/bin/clang.exe      -Wl,--whole-archive CMakeFiles/cmTC_235a4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_235a4.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_51d2c/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_51d2c.dir/build.make CMakeFiles/cmTC_51d2c.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51d2c.dir/CMakeCCompilerABI.c.obj
+/C/msys32/mingw32/bin/clang.exe    -o CMakeFiles/cmTC_51d2c.dir/CMakeCCompilerABI.c.obj   -c /C/msys32/mingw32/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_51d2c.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_51d2c.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_51d2c.dir/objects.a "CMakeFiles/cmTC_51d2c.dir/CMakeCCompilerABI.c.obj" 
+/C/msys32/mingw32/bin/clang.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_51d2c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_51d2c.exe -Wl,--major-image-version,0,--minor-image-version,0 
+clang version 7.0.1 (tags/RELEASE_701/final)
+Target: i686-w64-windows-gnu
+Thread model: posix
+InstalledDir: C:\msys32\mingw32\bin
+ "C:\\msys32\\mingw32\\bin\\ld" -m i386pe -Bdynamic -o cmTC_51d2c.exe "C:\\msys32\\mingw32\\i686-w64-mingw32\\lib\\crt2.o" "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtbegin.o" "-LC:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0" "-LC:\\msys32\\mingw32\\i686-w64-mingw32\\lib" "-LC:\\msys32\\mingw32\\lib" "-LC:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib" --whole-archive CMakeFiles/cmTC_51d2c.dir/objects.a --no-whole-archive --major-image-version 0 --minor-image-version 0 "-LC:\\msys32\\mingw32\\lib" -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtend.o"
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_51d2c/fast"]
+  ignore line: [C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_51d2c.dir/build.make CMakeFiles/cmTC_51d2c.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_51d2c.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/C/msys32/mingw32/bin/clang.exe    -o CMakeFiles/cmTC_51d2c.dir/CMakeCCompilerABI.c.obj   -c /C/msys32/mingw32/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_51d2c.exe]
+  ignore line: [/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_51d2c.dir/objects.a]
+  ignore line: [/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_51d2c.dir/objects.a "CMakeFiles/cmTC_51d2c.dir/CMakeCCompilerABI.c.obj" ]
+  ignore line: [/C/msys32/mingw32/bin/clang.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_51d2c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_51d2c.exe -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [clang version 7.0.1 (tags/RELEASE_701/final)]
+  ignore line: [Target: i686-w64-windows-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\msys32\mingw32\bin]
+  link line: [ "C:\\msys32\\mingw32\\bin\\ld" -m i386pe -Bdynamic -o cmTC_51d2c.exe "C:\\msys32\\mingw32\\i686-w64-mingw32\\lib\\crt2.o" "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtbegin.o" "-LC:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0" "-LC:\\msys32\\mingw32\\i686-w64-mingw32\\lib" "-LC:\\msys32\\mingw32\\lib" "-LC:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib" --whole-archive CMakeFiles/cmTC_51d2c.dir/objects.a --no-whole-archive --major-image-version 0 --minor-image-version 0 "-LC:\\msys32\\mingw32\\lib" -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtend.o"]
+    arg [C:\\msys32\\mingw32\\bin\\ld] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_51d2c.exe] ==> ignore
+    arg [C:\\msys32\\mingw32\\i686-w64-mingw32\\lib\\crt2.o] ==> ignore
+    arg [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtbegin.o] ==> ignore
+    arg [-LC:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0] ==> dir [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0]
+    arg [-LC:\\msys32\\mingw32\\i686-w64-mingw32\\lib] ==> dir [C:\\msys32\\mingw32\\i686-w64-mingw32\\lib]
+    arg [-LC:\\msys32\\mingw32\\lib] ==> dir [C:\\msys32\\mingw32\\lib]
+    arg [-LC:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib] ==> dir [C:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_51d2c.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-LC:\\msys32\\mingw32\\lib] ==> dir [C:\\msys32\\mingw32\\lib]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse library dir [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0] ==> [C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/7.4.0]
+  collapse library dir [C:\\msys32\\mingw32\\i686-w64-mingw32\\lib] ==> [C:/msys32/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [C:\\msys32\\mingw32\\lib] ==> [C:/msys32/mingw32/lib]
+  collapse library dir [C:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib] ==> [C:/msys32/mingw32/i686-w64-mingw32/sys-root/mingw/lib]
+  collapse library dir [C:\\msys32\\mingw32\\lib] ==> [C:/msys32/mingw32/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/7.4.0;C:/msys32/mingw32/i686-w64-mingw32/lib;C:/msys32/mingw32/lib;C:/msys32/mingw32/i686-w64-mingw32/sys-root/mingw/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_c0a7a/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_c0a7a.dir/build.make CMakeFiles/cmTC_c0a7a.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0a7a.dir/feature_tests.c.obj
+/C/msys32/mingw32/bin/clang.exe   -std=c11 -o CMakeFiles/cmTC_c0a7a.dir/feature_tests.c.obj   -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c0a7a.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_c0a7a.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_c0a7a.dir/objects.a "CMakeFiles/cmTC_c0a7a.dir/feature_tests.c.obj" 
+/C/msys32/mingw32/bin/clang.exe      -Wl,--whole-archive CMakeFiles/cmTC_c0a7a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c0a7a.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_7160d/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_7160d.dir/build.make CMakeFiles/cmTC_7160d.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7160d.dir/feature_tests.c.obj
+/C/msys32/mingw32/bin/clang.exe   -std=c99 -o CMakeFiles/cmTC_7160d.dir/feature_tests.c.obj   -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7160d.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_7160d.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_7160d.dir/objects.a "CMakeFiles/cmTC_7160d.dir/feature_tests.c.obj" 
+/C/msys32/mingw32/bin/clang.exe      -Wl,--whole-archive CMakeFiles/cmTC_7160d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7160d.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_a3030/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_a3030.dir/build.make CMakeFiles/cmTC_a3030.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3030.dir/feature_tests.c.obj
+/C/msys32/mingw32/bin/clang.exe   -std=c90 -o CMakeFiles/cmTC_a3030.dir/feature_tests.c.obj   -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a3030.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_a3030.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_a3030.dir/objects.a "CMakeFiles/cmTC_a3030.dir/feature_tests.c.obj" 
+/C/msys32/mingw32/bin/clang.exe      -Wl,--whole-archive CMakeFiles/cmTC_a3030.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a3030.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_1911b/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_1911b.dir/build.make CMakeFiles/cmTC_1911b.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1911b.dir/testCXXCompiler.cxx.obj
+/C/msys32/mingw32/bin/clang++.exe     -o CMakeFiles/cmTC_1911b.dir/testCXXCompiler.cxx.obj -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1911b.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_1911b.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_1911b.dir/objects.a "CMakeFiles/cmTC_1911b.dir/testCXXCompiler.cxx.obj" 
+/C/msys32/mingw32/bin/clang++.exe      -Wl,--whole-archive CMakeFiles/cmTC_1911b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1911b.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_5740e/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_5740e.dir/build.make CMakeFiles/cmTC_5740e.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5740e.dir/CMakeCXXCompilerABI.cpp.obj
+/C/msys32/mingw32/bin/clang++.exe     -o CMakeFiles/cmTC_5740e.dir/CMakeCXXCompilerABI.cpp.obj -c /C/msys32/mingw32/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5740e.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_5740e.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_5740e.dir/objects.a "CMakeFiles/cmTC_5740e.dir/CMakeCXXCompilerABI.cpp.obj" 
+/C/msys32/mingw32/bin/clang++.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_5740e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5740e.exe -Wl,--major-image-version,0,--minor-image-version,0 
+clang version 7.0.1 (tags/RELEASE_701/final)
+Target: i686-w64-windows-gnu
+Thread model: posix
+InstalledDir: C:\msys32\mingw32\bin
+ "C:\\msys32\\mingw32\\bin\\ld" -m i386pe -Bdynamic -o cmTC_5740e.exe "C:\\msys32\\mingw32\\i686-w64-mingw32\\lib\\crt2.o" "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtbegin.o" "-LC:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0" "-LC:\\msys32\\mingw32\\i686-w64-mingw32\\lib" "-LC:\\msys32\\mingw32\\lib" "-LC:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib" --whole-archive CMakeFiles/cmTC_5740e.dir/objects.a --no-whole-archive --major-image-version 0 --minor-image-version 0 "-LC:\\msys32\\mingw32\\lib" -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtend.o"
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_5740e/fast"]
+  ignore line: [C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_5740e.dir/build.make CMakeFiles/cmTC_5740e.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5740e.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/C/msys32/mingw32/bin/clang++.exe     -o CMakeFiles/cmTC_5740e.dir/CMakeCXXCompilerABI.cpp.obj -c /C/msys32/mingw32/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_5740e.exe]
+  ignore line: [/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_5740e.dir/objects.a]
+  ignore line: [/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_5740e.dir/objects.a "CMakeFiles/cmTC_5740e.dir/CMakeCXXCompilerABI.cpp.obj" ]
+  ignore line: [/C/msys32/mingw32/bin/clang++.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_5740e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5740e.exe -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [clang version 7.0.1 (tags/RELEASE_701/final)]
+  ignore line: [Target: i686-w64-windows-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\msys32\mingw32\bin]
+  link line: [ "C:\\msys32\\mingw32\\bin\\ld" -m i386pe -Bdynamic -o cmTC_5740e.exe "C:\\msys32\\mingw32\\i686-w64-mingw32\\lib\\crt2.o" "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtbegin.o" "-LC:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0" "-LC:\\msys32\\mingw32\\i686-w64-mingw32\\lib" "-LC:\\msys32\\mingw32\\lib" "-LC:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib" --whole-archive CMakeFiles/cmTC_5740e.dir/objects.a --no-whole-archive --major-image-version 0 --minor-image-version 0 "-LC:\\msys32\\mingw32\\lib" -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt "C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtend.o"]
+    arg [C:\\msys32\\mingw32\\bin\\ld] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5740e.exe] ==> ignore
+    arg [C:\\msys32\\mingw32\\i686-w64-mingw32\\lib\\crt2.o] ==> ignore
+    arg [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtbegin.o] ==> ignore
+    arg [-LC:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0] ==> dir [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0]
+    arg [-LC:\\msys32\\mingw32\\i686-w64-mingw32\\lib] ==> dir [C:\\msys32\\mingw32\\i686-w64-mingw32\\lib]
+    arg [-LC:\\msys32\\mingw32\\lib] ==> dir [C:\\msys32\\mingw32\\lib]
+    arg [-LC:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib] ==> dir [C:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_5740e.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-LC:\\msys32\\mingw32\\lib] ==> dir [C:\\msys32\\mingw32\\lib]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0\\crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [C:\\msys32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.4.0] ==> [C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/7.4.0]
+  collapse library dir [C:\\msys32\\mingw32\\i686-w64-mingw32\\lib] ==> [C:/msys32/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [C:\\msys32\\mingw32\\lib] ==> [C:/msys32/mingw32/lib]
+  collapse library dir [C:\\msys32\\mingw32\\i686-w64-mingw32/sys-root/mingw/lib] ==> [C:/msys32/mingw32/i686-w64-mingw32/sys-root/mingw/lib]
+  collapse library dir [C:\\msys32\\mingw32\\lib] ==> [C:/msys32/mingw32/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex]
+  implicit dirs: [C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/7.4.0;C:/msys32/mingw32/i686-w64-mingw32/lib;C:/msys32/mingw32/lib;C:/msys32/mingw32/i686-w64-mingw32/sys-root/mingw/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_11413/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_11413.dir/build.make CMakeFiles/cmTC_11413.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11413.dir/feature_tests.cxx.obj
+/C/msys32/mingw32/bin/clang++.exe    -std=c++2a -o CMakeFiles/cmTC_11413.dir/feature_tests.cxx.obj -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_11413.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_11413.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_11413.dir/objects.a "CMakeFiles/cmTC_11413.dir/feature_tests.cxx.obj" 
+/C/msys32/mingw32/bin/clang++.exe      -Wl,--whole-archive CMakeFiles/cmTC_11413.dir/objects.a -Wl,--no-whole-archive  -o cmTC_11413.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_cf5a0/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_cf5a0.dir/build.make CMakeFiles/cmTC_cf5a0.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cf5a0.dir/feature_tests.cxx.obj
+/C/msys32/mingw32/bin/clang++.exe    -std=c++17 -o CMakeFiles/cmTC_cf5a0.dir/feature_tests.cxx.obj -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cf5a0.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_cf5a0.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_cf5a0.dir/objects.a "CMakeFiles/cmTC_cf5a0.dir/feature_tests.cxx.obj" 
+/C/msys32/mingw32/bin/clang++.exe      -Wl,--whole-archive CMakeFiles/cmTC_cf5a0.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cf5a0.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_b58db/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_b58db.dir/build.make CMakeFiles/cmTC_b58db.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b58db.dir/feature_tests.cxx.obj
+/C/msys32/mingw32/bin/clang++.exe    -std=c++14 -o CMakeFiles/cmTC_b58db.dir/feature_tests.cxx.obj -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b58db.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_b58db.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_b58db.dir/objects.a "CMakeFiles/cmTC_b58db.dir/feature_tests.cxx.obj" 
+/C/msys32/mingw32/bin/clang++.exe      -Wl,--whole-archive CMakeFiles/cmTC_b58db.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b58db.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_1815b/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_1815b.dir/build.make CMakeFiles/cmTC_1815b.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1815b.dir/feature_tests.cxx.obj
+/C/msys32/mingw32/bin/clang++.exe    -std=c++11 -o CMakeFiles/cmTC_1815b.dir/feature_tests.cxx.obj -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1815b.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_1815b.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_1815b.dir/objects.a "CMakeFiles/cmTC_1815b.dir/feature_tests.cxx.obj" 
+/C/msys32/mingw32/bin/clang++.exe      -Wl,--whole-archive CMakeFiles/cmTC_1815b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1815b.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys32/mingw32/bin/make.exe" "cmTC_d1e8a/fast"
+C:/msys32/mingw32/bin/make.exe -f CMakeFiles/cmTC_d1e8a.dir/build.make CMakeFiles/cmTC_d1e8a.dir/build
+make.exe[1]: Entering directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d1e8a.dir/feature_tests.cxx.obj
+/C/msys32/mingw32/bin/clang++.exe    -std=c++98 -o CMakeFiles/cmTC_d1e8a.dir/feature_tests.cxx.obj -c /C/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d1e8a.exe
+/C/msys32/mingw32/bin/cmake.exe -E remove -f CMakeFiles/cmTC_d1e8a.dir/objects.a
+/C/msys32/mingw32/bin/ar.exe cr CMakeFiles/cmTC_d1e8a.dir/objects.a "CMakeFiles/cmTC_d1e8a.dir/feature_tests.cxx.obj" 
+/C/msys32/mingw32/bin/clang++.exe      -Wl,--whole-archive CMakeFiles/cmTC_d1e8a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d1e8a.exe -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make.exe[1]: Leaving directory 'C:/Users/Administrator/Desktop/vsc/.vscode/cx/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
